@@ -94,14 +94,11 @@ npm run dev
 ### Contract Details
 - **Deployed Contract Address**: `CB2MNE6RRXQBVQSA62EZLBIAZQIINYCUV2KZYJKCVZ7LJ45BH3MOYUD7`
 - **Network**: Stellar Testnet
-- **Transaction Hash**:ee1c73af112599cb90fccf4c1c17dba6bcc0701450f9c92923b19e7e57660b40
-- **Stellar Explorer Link**: `https://stellar.expert/explorer/testnet/contract/CB2MNE6RRXQBVQSA62EZLBIAZQIINYCUV2KZYJKCVZ7LJ45BH3MOYUD7`
+- **Transaction Hash**: `ee1c73af112599cb90fccf4c1c17dba6bcc0701450f9c92923b19e7e57660b40`
+- **Verify on Stellar Explorer**: [View Transaction](https://stellar.expert/explorer/testnet/tx/ee1c73af112599cb90fccf4c1c17dba6bcc0701450f9c92923b19e7e57660b40)
 
 ### Wallet Integration
-The application supports Freighter Wallet with seamless transaction signing.
-
-![Wallet Connection Screenshot](./docs/wallet-screenshot.png)
-*Screenshot showing wallet connection options*
+The application supports Freighter Wallet with seamless transaction signing. Users can connect their wallet, place bids, and see real-time updates across all connected devices.
 
 ## 🎥 Demo
 
