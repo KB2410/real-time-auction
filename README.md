@@ -94,7 +94,7 @@ npm run dev
 ### Contract Details
 - **Deployed Contract Address**: `CB2MNE6RRXQBVQSA62EZLBIAZQIINYCUV2KZYJKCVZ7LJ45BH3MOYUD7`
 - **Network**: Stellar Testnet
-- **Transaction Hash**: `[Add your transaction hash from Stellar Explorer here]`
+- **Transaction Hash**:ee1c73af112599cb90fccf4c1c17dba6bcc0701450f9c92923b19e7e57660b40
 - **Stellar Explorer Link**: `https://stellar.expert/explorer/testnet/contract/CB2MNE6RRXQBVQSA62EZLBIAZQIINYCUV2KZYJKCVZ7LJ45BH3MOYUD7`
 
 ### Wallet Integration
