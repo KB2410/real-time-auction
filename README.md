@@ -71,8 +71,6 @@ soroban contract invoke \
   --end_time $END_TIME
 ```
 
-See [INITIALIZE_CONTRACT.md](./INITIALIZE_CONTRACT.md) for detailed instructions.
-
 ### 3. Start the Backend Bridge
 ```bash
 cd ../../backend
