@@ -72,9 +72,25 @@ npm run dev
 ```
 *The application will be available at `http://localhost:5173`.*
 
+## 📋 Submission Information
+
+### Contract Details
+- **Deployed Contract Address**: `CB2MNE6RRXQBVQSA62EZLBIAZQIINYCUV2KZYJKCVZ7LJ45BH3MOYUD7`
+- **Network**: Stellar Testnet
+- **Transaction Hash**: `[Add your transaction hash from Stellar Explorer here]`
+- **Stellar Explorer Link**: `https://stellar.expert/explorer/testnet/contract/CB2MNE6RRXQBVQSA62EZLBIAZQIINYCUV2KZYJKCVZ7LJ45BH3MOYUD7`
+
+### Wallet Integration
+The application supports Freighter Wallet with seamless transaction signing.
+
+![Wallet Connection Screenshot](./docs/wallet-screenshot.png)
+*Screenshot showing wallet connection options*
+
 ## 🎥 Demo
 
-[Link to your 2-minute side-by-side YouTube demo video here]
+**Live Demo**: [Add your Vercel/Netlify deployment link here] *(Optional)*
+
+**Video Demo**: [Link to your 2-minute side-by-side YouTube demo video here]
 
 ## 🏆 What Makes This Special
 
