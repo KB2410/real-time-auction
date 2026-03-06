@@ -56,6 +56,23 @@ soroban contract deploy \
 ```
 *Save the returned CONTRACT_ID for the next step.*
 
+**IMPORTANT: Initialize the contract before first use:**
+```bash
+# Set auction to end 1 hour from now
+END_TIME=$(($(date +%s) + 3600))
+
+soroban contract invoke \
+  --id YOUR_CONTRACT_ID \
+  --source YOUR_SECRET_KEY \
+  --network testnet \
+  -- \
+  init \
+  --item_name NFT_ITEM \
+  --end_time $END_TIME
+```
+
+See [INITIALIZE_CONTRACT.md](./INITIALIZE_CONTRACT.md) for detailed instructions.
+
 ### 3. Start the Backend Bridge
 ```bash
 cd ../../backend

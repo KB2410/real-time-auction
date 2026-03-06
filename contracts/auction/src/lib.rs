@@ -58,4 +58,17 @@ impl AuctionContract {
         let topics = (symbol_short!("bid"), bidder);
         env.events().publish(topics, bid_amount);
     }
+
+    // Getter functions for querying contract state
+    pub fn get_highest_bid(env: Env) -> i128 {
+        env.storage().instance().get(&DataKey::HighestBid).unwrap_or(0)
+    }
+
+    pub fn get_end_time(env: Env) -> u64 {
+        env.storage().instance().get(&DataKey::EndTime).unwrap_or(0)
+    }
+
+    pub fn get_highest_bidder(env: Env) -> Option<Address> {
+        env.storage().instance().get(&DataKey::HighestBidder)
+    }
 }
